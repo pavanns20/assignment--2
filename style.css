@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid navy;
+    justify-content: center;
+    align-content: center;
+    margin: 5px;
+    padding: 25px;
+    color: white;
+    background-color: black;
+    width:auto;
+}
+
+h1{text-align:center ;}
+
+#counter{
+ font-size: 70px;
+ font-weight: 900;
+text-align: center;
+}
+.buttons{
+    gap: 10px;
+    display: flex;
+    margin-left: 40%;
+    padding: 10px;
+}
+#increment,#decrement,#reset{
+   width: 120px;
+   height: 60px;
+   border-radius: 10%;
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
